@@ -1,0 +1,7 @@
+2026-03-31 17:21:25,807 | INFO | test_planner_login | Launching Chrome browser
+2026-03-31 17:21:31,172 | INFO | test_planner_login | Navigated to https://eventsmonial.com/sign-in/planner
+2026-03-31 17:21:31,175 | INFO | test_planner_login | Logging in with email: planner@example.com
+2026-03-31 17:21:32,208 | ERROR | test_planner_login | Login test failed: Login failed: URL did not change after sign in
+assert 'https://eventsmonial.com/sign-in/planner' != 'https://eventsmonial.com/sign-in/planner'
+ +  where 'https://eventsmonial.com/sign-in/planner' = <selenium.webdriver.chrome.webdriver.WebDriver (session="e76100b743d21a7af67d7bdfb92bd631")>.current_url
+2026-03-31 17:21:34,615 | INFO | test_planner_login | Browser closed
